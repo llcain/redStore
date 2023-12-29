@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
 .container {
     max-width: 1300px;
     margin: auto;
@@ -71,5 +84,10 @@ p {
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #563434;
 }
 
