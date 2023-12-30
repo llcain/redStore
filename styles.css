@@ -260,6 +260,14 @@ small {
     margin-bottom: 20px;
 }
 
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
 .footer-col-1 {
     flex-basis: 30%;
 }
